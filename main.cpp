@@ -5,7 +5,11 @@
 #include <condition_variable>
 #include <chrono>
 
+#ifdef __cplusplus
+extern "C" {
+#endif
 #include "editline/readline.h"
+
 #include "ncbind/ncbind.hpp"
 
 #include "license.c"
