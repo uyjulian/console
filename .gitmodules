@@ -1,6 +1,6 @@
 [submodule "wineditline"]
-	path = wineditline
-	url = git@github.com:winlibs/wineditline.git
+	path = external/wineditline
+	url = https://github.com/uyjulian/wineditline.git
 	ignore = dirty
 [submodule "external/ncbind"]
 	path = external/ncbind

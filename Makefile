@@ -1,6 +1,6 @@
 
-INCFLAGS += -Iwineditline/src
-LIBWINEDITLINE_SOURCES = wineditline/src/editline.c wineditline/src/history.c wineditline/src/fn_complete.c
+INCFLAGS += -Iexternal/wineditline/src
+LIBWINEDITLINE_SOURCES = external/wineditline/src/editline.c external/wineditline/src/history.c external/wineditline/src/fn_complete.c
 
 SOURCES += main.cpp
 SOURCES += $(LIBWINEDITLINE_SOURCES)
