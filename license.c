@@ -1,4 +1,4 @@
-char *license_text=""
+const char *license_text=""
 "WinEditLine (formerly MinGWEditLine)\n"
 "Copyright 2010-2018 Paolo Tosco <paolo.tosco.mail@gmail.com>\n"
 "All rights reserved.\n"
